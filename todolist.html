@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="todolist.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="remove-id">
+        <h3 id="hh3">How to remove the list</h3>
+        <div id="remove">
+          <p>
+            Hover Your Mouse on the list you have completed or need to delete
+            and click on it ...Thank you!!
+          </p>
+        </div>
+      </div>
+      <h1 id="hd">To do List</h1>
+      <div id="user-input">
+        <input type="text" name="list" id="list" />
+        <input type="button" value="+" id="btn" onclick="fun1()" />
+        <!-- <button  onclick="fun1()" id="btn">+</button> -->
+      </div>
+      <div id="to-do-list">
+        <ol id="myOL"></ol>
+      </div>
+    </div>
+
+    <script src="todolist.js"></script>
+  </body>
+</html>

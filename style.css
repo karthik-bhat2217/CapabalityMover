@@ -10,53 +10,75 @@
   padding: 0;
   margin: 0;
 }
-#title{
-    padding-top: 100px;
-    text-align: center;
-    font-weight: 100px;
-    height: 100px;
+#title {
+  padding-top: 100px;
+  text-align: center;
+  font-weight: 100px;
+  height: 100px;
 }
-#btn-1{
-    height: 40px;
-    width: 100px;
+#btn-1 {
+  height: 40px;
+  width: 100px;
 }
-#btn-2{
-    height: 40px;
-    width: 100px;
-}#btn-3{
-    height: 40px;
-    width: 100px;
+#btn-2 {
+  height: 40px;
+  width: 100px;
 }
-#fn-1{
-display:flex;
-height: 300px;
-flex-direction: column;
-justify-content: space-evenly;
+#btn-3 {
+  height: 40px;
+  width: 100px;
 }
-#fn-2{
-    display:flex;
-    height: 300px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    }
-    #fn-3{
-        display:flex;
-        height: 300px;
-        flex-direction: column;
-        justify-content: space-evenly;
-        }
-#fn-1> img{
-   
-    height: 100px;
-    width: 100px;
+#fn-1 {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-#fn-2> img{
-   
-    height: 100px;
-    width: 100px;
+#fn-2 {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-#fn-3> img{
-   
-    height: 100px;
-    width: 100px;
+#fn-3 {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#fn-1 > img {
+  height: 100px;
+  width: 100px;
+}
+#fn-2 > img {
+  height: 100px;
+  width: 100px;
+}
+#fn-3 > img {
+  height: 100px;
+  width: 100px;
+}
+#hh3 {
+  height: 100px;
+  width: 100px;
+  background: none;
+  position: fixed;
+}
+#hh3:hover {
+  display: none;
+}
+#hh3:hover + #remove {
+  color: black;
+  display: block;
+}
+#remove {
+  display: none;
+}
+#remove {
+  font-size: larger;
+  height: 100px;
+}
+#remove-id {
+  border: solid 2px wheat;
+  position: absolute;
 }
