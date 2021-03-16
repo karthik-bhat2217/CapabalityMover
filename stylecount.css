@@ -1,0 +1,26 @@
+*{
+    background-image: url(https://cutewallpaper.org/21/background-gif-html/8-HTML-Scripts-to-Add-Interactivity-to-Your-Websites.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+body{
+    margin:auto;
+    width: 300px;
+}
+textarea{
+    width:360px;
+    height: 100px;
+    display: block;
+    font-family: arial;
+    font-size: 18px;
+    border-radius: 2px;
+    border: black 1px solid;
+}
+input[type=button]{
+    padding: 10px;
+    background: azure;
+    border: black 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+}
